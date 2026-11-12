@@ -47,7 +47,7 @@ jobs:
       deployment: false
     permissions: {}
     steps:
-      - uses: max-sixty/tend/setup-runtime@0.3.23
+      - uses: max-sixty/tend/setup-runtime@0.3.24
       - name: File, update or close the CI failure report
         env:
           GH_TOKEN: ${{ secrets.TEND_BOT_TOKEN }}
